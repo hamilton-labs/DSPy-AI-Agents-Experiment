@@ -9,28 +9,42 @@ This framework allows developers to "program" Language Model (LM) prompts using 
 ### Install and run the Ollama Docker Containter on your local CPU
 
 1. Install the Ollama Docker Image & run the Ollama container  
-`docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama` 
+
+    `docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama` 
 
 2. Start the Ollama container if you have it already  
-`docker start ollama` 
+
+    `docker start ollama`  
+
 3. Install the 6 Bit quantized Llama 3 model (for Intel CPUs)  
-`docker exec -e OLLAMA_LLM_LIBRARY=cpu_avx ollama ollama run llama3.2:1b-instruct-q6_K`
+
+    `docker exec -e OLLAMA_LLM_LIBRARY=cpu_avx ollama ollama run llama3.2:1b-instruct-q6_K`
 
 ### Run DSPy Locally with Ollama 
 
 1. Clone the repo  
-`git clone git@github.com:hamilton-labs/DSPy-AI-Agents-Experiment.git` 
+
+    `git clone git@github.com:hamilton-labs/DSPy-AI-Agents-Experiment.git` 
 
 2. Create a virtual environmnet  
-`python -m venv DSPy_trial`
+
+    `python -m venv DSPy_trial`
+
 3. Change into the DSPy_trial directory  
-`cd DSPy_trial`
+
+    `cd DSPy_trial`
+
 4. Activate the virtural environment  
-`source ./bin/activate`
+
+    `source ./bin/activate`
+
 5. Install the dependencies (Python v3.12.3+)  
-`pip install -r requirements.txt`
+
+    `pip install -r requirements.txt`
+
 6. Run the program  
-`python DSPy_setup.py` 
+
+    `python DSPy_setup.py` 
 
 ## Possible Output (outputs may vary)
 Here's how Llama 3 responded for me.
