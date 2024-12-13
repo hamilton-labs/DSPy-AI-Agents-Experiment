@@ -13,7 +13,7 @@ This framework allows developers to "program" Language Model (LM) prompts using 
 
 2. Start the Ollama container if you have it already  
 `docker start ollama` 
-3. Install the 6 Bit quantized Llama 3 model (for Intel CPUs) 
+3. Install the 6 Bit quantized Llama 3 model (for Intel CPUs)  
 `docker exec -e OLLAMA_LLM_LIBRARY=cpu_avx ollama ollama run llama3.2:1b-instruct-q6_K`
 
 ### Run DSPy Locally with Ollama 
