@@ -139,6 +139,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Experiments
+experiments/
+
 # Bins
 bin/
 
