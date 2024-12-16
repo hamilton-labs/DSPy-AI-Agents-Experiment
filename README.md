@@ -28,11 +28,11 @@ This framework allows developers to "program" Language Model (LM) prompts using 
 
 2. Create a virtual environmnet  
 
-    `python -m venv DSPy_trial`
+    `python -m venv DSPy_AI_Agents_Experiment`
 
-3. Change into the DSPy_trial directory  
+3. Change into the DSPy_AI_Agents_Experiment directory  
 
-    `cd DSPy_trial`
+    `cd DSPy_AI_Agents_Experiment`
 
 4. Activate the virtural environment  
 
