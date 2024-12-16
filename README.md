@@ -12,6 +12,12 @@ This framework allows developers to "program" Language Model (LM) prompts using 
 
     `docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama` 
 
+    1a. Or use one of the following options
+
+    - [Desktop](https://ollama.com/download)
+    - [Manual](https://github.com/ollama/ollama/blob/main/docs/linux.md#manual-install)
+    - [Other](https://github.com/ollama/ollama/blob/main/docs/docker.md#ollama-docker-image) Docker Install Options
+
 2. Start the Ollama container if you have it already  
 
     `docker start ollama`  
