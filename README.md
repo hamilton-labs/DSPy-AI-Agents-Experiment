@@ -44,7 +44,16 @@ This framework allows developers to "program" Language Model (LM) prompts using 
 
 6. Run the program  
 
-    `python DSPy_setup.py` 
+    `python DSPy_setup_example.py` 
+
+7. Compare your output. Was it different? 
+
+    `cat ./DSPy_output_example.md`
+
+8. Try entering your prompts from the command line. (Might make a CLI tool for this.)
+
+    `python DSPy_prompts_example.py`
+
 
 ## Possible Output (outputs may vary)
 Here's how Llama 3 responded for me.
